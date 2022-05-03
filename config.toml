@@ -1,3 +1,4 @@
 baseURL = 'https://www.haninge.org/'
 languageCode = 'sv'
 title = 'Hembygd i Haninge'
+theme = 'cleanwhite'
