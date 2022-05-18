@@ -1,0 +1,38 @@
+---
+title: Hembygd i Haninge
+---
+
+<!DOCTYPE html>
+<html>
+
+{% include "head.html" %}
+
+    <body>
+        <div class="full-width">
+            {% include "header.html" %}
+            {% include "navigation.html" %}
+        </div>
+
+        <div class="section">
+
+            <div class="content">
+                <div class="content-text">
+                    
+                    {{ content | safe }}
+
+                </div>
+            </div>  
+
+
+            <div class="rightcolumn">
+                {% include "godaddy_right_column.html" %}
+                {% include "hline_right_column.html" %}
+            </div>
+        </div>
+            
+        <div class="full-width">
+           {% include "footer.html" %}
+        </div>
+
+    </body>
+</html>
